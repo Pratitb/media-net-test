@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>LiveNewsEveryday</title>
+  </head>
+
+  <body id="home">
+    <!-- Navigation start -->
+    <nav>
+      <a href="#home"><img src="images/livenewseveryday-logo.svg" alt="" /></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#top-news">World</a>
+        <a href="#top-news">US News</a>
+        <a href="#business">Business</a>
+        <a href="#health">Health</a>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#sports">Sports</a>
+        <a href="javascript:;">Science</a>
+        <a href="javascript:;">Technology</a>
+        <a href="#live-news" class="live-news">Live News</a>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="col-one">
+        <p class="section-heading">covid 19 updates</p>
+        <div class="dropdowns">
+          <select name="country" id="country">
+            <option value="USA" selected>United States</option>
+          </select>
+          <select name="states" id="states">
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AS">American Samoa</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="FL">Florida</option>
+          </select>
+        </div>
+        <!-- Statistics -->
+        <div class="statistics">
+          <div class="stat">
+            <img src="images/stat-01.svg" alt="Animated virus image" />
+            <div class="data">
+              <p class="stat-heading">total cases</p>
+              <p class="stat-data">456,567</p>
+            </div>
+          </div>
+          <div class="stat">
+            <img src="images/stat-02.svg" alt="Animated virus image" />
+            <div class="data">
+              <p class="stat-heading">recovered cases</p>
+              <p class="stat-data">25,667</p>
+            </div>
+          </div>
+          <div class="stat">
+            <img src="images/stat-01.svg" alt="Animated virus image" />
+            <div class="data">
+              <p class="stat-heading">deaths</p>
+              <p class="stat-data">3,247</p>
+            </div>
+          </div>
+        </div>
+        <div class="heading-container">
+          <p class="section-heading top-news" id="top-news">top news</p>
+          <div class="top-news-nav-btns">
+            <img src="images/left-arrow.svg" alt="Previous news button" />
+            <img src="images/right-arrow.svg" alt="Next news button" />
+          </div>
+        </div>
+        <!-- Top news 1 -->
+        <div class="top-news-container">
+          <div class="news mr-1-5">
+            <div class="top-news-image-box">
+              <img
+                src="images/image-01.jpg"
+                srcset="images/image-01-2.jpg 700w, images/image-01-3.jpg 1000w"
+                alt="Close up image of a flower with green leaves in background"
+              />
+              <p class="tags">world</p>
+            </div>
+
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+          <div class="news">
+            <div class="top-news-image-box">
+              <img
+                src="images/image-02.jpg"
+                srcset="images/image-02-2.jpg 700w, images/image-02-3.jpg 1000w"
+                alt="Image of mountains covered with snow"
+              />
+              <p class="tags">us news</p>
+            </div>
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+        </div>
+        <!-- More articles 1 -->
+        <div class="more-articles">
+          <div class="more-articles-categories">
+            <a href="javascript:;" class="more-articles-links see-also"
+              >See Also</a
+            >
+            <a href="javascript:;" class="more-articles-links">Recommended</a>
+          </div>
+          <div class="miscellaneous-cards">
+            <div class="card mr-1-5" data-aos="zoom-in">
+              <img
+                src="images/more-01.jpg"
+                srcset="images/more-01-2.jpg 700w, images/more-01-3.jpg 1000w"
+                alt=""
+              />
+              <div class="title-link">
+                <p>01. Lorem ipsum dolor sit amet.</p>
+                <img src="images/right-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="images/more-02.jpg"
+                srcset="images/more-02-2.jpg 700w, images/more-02-3.jpg 1000w"
+                alt=""
+              />
+              <div class="title-link">
+                <p>02. Lorem ipsum dolor sit amet.</p>
+                <img src="images/right-arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Top news 2 -->
+        <div class="top-news-container">
+          <div class="news mr-1-5" id="business" data-aos="zoom-in">
+            <div class="top-news-image-box">
+              <img
+                src="images/image-01.jpg"
+                srcset="images/image-01-2.jpg 700w, images/image-01-3.jpg 1000w"
+                alt="Close up image of a flower with green leaves in background"
+              />
+              <p class="tags">business</p>
+            </div>
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+          <div class="news" id="health" data-aos="zoom-in">
+            <div class="top-news-image-box">
+              <img
+                src="images/image-02.jpg"
+                srcset="images/image-02-2.jpg 700w, images/image-02-3.jpg 1000w"
+                alt="Image of mountains covered with snow"
+              />
+              <p class="tags">health</p>
+            </div>
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+        </div>
+        <!-- Top news 3 -->
+        <div class="top-news-container">
+          <div class="news mr-1-5" id="entertainment" data-aos="zoom-in">
+            <div class="top-news-image-box">
+              <img
+                src="images/top-news-3-01.jpg"
+                srcset="
+                  images/top-news-3-01-2.jpg  700w,
+                  images/top-news-3-01-3.jpg 1000w
+                "
+                alt="Close up image of a flower with green leaves in background"
+              />
+              <p class="tags">entertainment</p>
+            </div>
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+          <div class="news" id="sports" data-aos="zoom-in">
+            <div class="top-news-image-box">
+              <img
+                src="images/top-news-3-02.jpg"
+                srcset="
+                  images/top-news-3-02-2.jpg  700w,
+                  images/top-news-3-02-3.jpg 1000w
+                "
+                alt="Image of mountains covered with snow"
+              />
+              <p class="tags">sports</p>
+            </div>
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+        </div>
+        <!-- More articles 2 -->
+        <div class="more-articles">
+          <div class="more-articles-categories">
+            <a href="javascript:;" class="more-articles-links see-also"
+              >See Also</a
+            >
+          </div>
+          <div class="miscellaneous-cards">
+            <div class="card mr-1-5" data-aos="zoom-in">
+              <img
+                src="images/more-01.jpg"
+                srcset="images/more-01-2.jpg 700w, images/more-01-3.jpg 1000w"
+                alt=""
+              />
+              <div class="title-link">
+                <p>01. Lorem ipsum dolor sit amet.</p>
+                <img src="images/right-arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="images/more-02.jpg"
+                srcset="images/more-02-2.jpg 700w, images/more-02-3.jpg 1000w"
+                alt=""
+              />
+              <div class="title-link">
+                <p>02. Lorem ipsum dolor sit amet.</p>
+                <img src="images/right-arrow.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="heading-container live-news-heading-container">
+          <p class="section-heading live-news">live news</p>
+          <div class="top-news-nav-btns live-news-btns">
+            <p class="underline bold">See More</p>
+            <img src="images/right-arrow.svg" alt="Next news button" />
+          </div>
+        </div>
+        <!-- live news -->
+        <div class="top-news-container" id="live-news">
+          <div class="news mr-1-5" data-aos="zoom-in">
+            <div class="main-image">
+              <img
+                src="images/live-news-01.jpg"
+                srcset="
+                  images/live-news-01-2.jpg  700w,
+                  images/live-news-01-3.jpg 1000w
+                "
+                alt="Close up image of a flower with green leaves in background"
+              />
+              <img
+                src="images/play-button.svg"
+                class="play-btn"
+                alt="Video play button"
+              />
+            </div>
+
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+          <div class="news" data-aos="zoom-in">
+            <div class="main-image">
+              <img
+                src="images/live-news-02.jpg"
+                srcset="
+                  images/live-new-02-2.jpg   700w,
+                  images/live-news-02-3.jpg 1000w
+                "
+                alt="Image of mountains covered with snow"
+              />
+              <img
+                src="images/play-button.svg"
+                class="play-btn"
+                alt="Video play button"
+              />
+            </div>
+
+            <p class="news-title">
+              Protestors face off with the forces of order in DC and New York,
+              as crowds gather at City Hall in San Francisco
+            </p>
+            <p class="news-detail">
+              Hundreds of people have been arrested overnight after taking part
+              in protests across America.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="col-two">
+        <div class="important-news-heading">
+          <a href="javascript:;" class="tab-heading">Don't Miss</a>
+        </div>
+        <div class="important-news">
+          <div class="article">
+            <img src="https://dummyimage.com/100x50/003366/fff" alt="" />
+            <p class="article-title">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="article">
+            <img src="https://dummyimage.com/100x50/003366/fff" alt="" />
+            <p class="article-title">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="article">
+            <img src="https://dummyimage.com/100x50/003366/fff" alt="" />
+            <p class="article-title">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="article">
+            <img src="https://dummyimage.com/100x50/003366/fff" alt="" />
+            <p class="article-title">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="article">
+            <img src="https://dummyimage.com/100x50/003366/fff" alt="" />
+            <p class="article-title">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="empty-box"></div>
+        <div class="list-links-container">
+          <div class="tab">
+            <a href="javascript:;" class="tab-heading">See Also</a>
+          </div>
+          <div class="list-links-box">
+            <div class="list-link">
+              <p>1.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <img src="images/right-arrow.svg" alt="" />
+            </div>
+            <div class="list-link">
+              <p>2.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <img src="images/right-arrow.svg" alt="" />
+            </div>
+            <div class="list-link">
+              <p>3.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <img src="images/right-arrow.svg" alt="" />
+            </div>
+            <div class="list-link">
+              <p>4.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <img src="images/right-arrow.svg" alt="" />
+            </div>
+            <div class="list-link">
+              <p>5.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <img src="images/right-arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="disclaimer">
+      <p class="disclaimer-text">
+        The information/statistics provided on the site are sourced from
+        third-party websites. We do not warrant the accuracy of such information
+        & statistics. Our use of such third-party content on our site does not
+        construe any affiliation with or endorsement by the owners of such
+        third-party sites.
+      </p>
+    </div>
+    <footer>
+      <img src="images/livenewseveryday-logo.svg" alt="LiveNewsEveryday logo" />
+      <div class="footer-links-container">
+        <a href="javascript:;" class="footer-links">Privacy Policy</a
+        ><a href="javascript:;" class="footer-links">Terms of Service</a
+        ><a href="javascript:;" class="footer-links bold underline white"
+          >Contact Us</a
+        ><a href="javascript:;" class="footer-links">Uninstall</a
+        ><a href="javascript:;" class="footer-links">Unsubscribe</a>
+      </div>
+    </footer>
+    <div class="video-box">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YJb-rE2qH3E?autoplay=1&mute=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer;autoplay;fullscreen; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <img src="images/close.png" class="close" alt="Button to close video" />
+    </div>
+    <div id="top-btn">&uparrow;</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

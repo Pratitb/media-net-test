@@ -1,0 +1,41 @@
+nav {
+    @include flex(space-evenly, center, row);
+    background: $darkBlue;
+    padding: 0.6rem 0 0.8rem 0;
+    border-bottom: 2px solid $red;
+    .nav-links {
+        @include flex(space-evenly, center, row);
+        width: 70%;
+        a {
+            color: $lightGrey;
+            font-size: 1rem;
+        }
+        .live-news {
+            position: relative;
+            margin-left: 3rem;
+            &:before {
+                content: "";
+                position: absolute;
+                left: -18px;
+                top: 8px;
+                width: 6px;
+                height: 6px;
+                background: $red;
+                border-radius: 50%;
+                z-index: 1;
+                animation: shadow 2s linear infinite;
+            }
+            @keyframes shadow {
+                0% {
+                    box-shadow: 0 0 0 2px rgba(224, 32, 32, 0.5);
+                }
+                50% {
+                    box-shadow: 0 0 0 5px rgba(224, 32, 32, 0.5);
+                }
+                100% {
+                    box-shadow: 0 0 0 8px rgba(224, 32, 32, 0.5);
+                }
+            }
+        }
+    }
+}
