@@ -1,5 +1,13 @@
 /* Go to top button */
 let topPage = document.querySelector('#top-btn');
+window.onscroll = function(){
+    if(document.documentElement.scrollTop < 200){
+        topPage.style.display = 'none';
+    }
+    else{
+        topPage.style.display = 'block';
+    }
+}
 topPage.addEventListener('click', function(){
     document.documentElement.scrollTop = 0;
 })

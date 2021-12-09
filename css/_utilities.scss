@@ -51,6 +51,6 @@ a {
 }
 @media(max-width:1024px){
     #top-btn{
-        display: none;
+        display: none!important;
     }
 }
