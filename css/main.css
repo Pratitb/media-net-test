@@ -63,6 +63,7 @@ a {
   background: #003366;
   border-radius: 0.5rem;
   cursor: pointer;
+  display: none;
 }
 
 @media (max-width: 1024px) {
